@@ -1,0 +1,55 @@
+plugins {
+    // Apply the java plugin to add support for Java
+    id 'java'
+
+    // Apply the application plugin to add support for building a CLI application.
+    id 'application'
+
+    id 'jacoco'
+
+    id 'org.openjfx.javafxplugin' version '0.0.8'
+}
+
+repositories {
+    // Use jcenter for resolving dependencies.
+    // You can declare any Maven/Ivy/file repository here.
+    jcenter()
+}
+
+dependencies {
+    // This dependency is used by the application.
+    implementation 'com.google.guava:guava:29.0-jre'
+
+    implementation 'com.google.code.gson:gson:2.8.6'
+
+    // Use JUnit test framework
+    testImplementation 'junit:junit:4.13'
+
+    testCompile "org.testfx:testfx-core:4.0.16-alpha"
+
+    testCompile "org.testfx:testfx-junit:4.0.16-alpha"
+
+}
+
+javafx {
+    version = "11"
+    modules = [ 'javafx.controls', 'javafx.fxml']
+}
+
+jacoco {
+    toolVersion = "0.8.4"
+    reportsDir = file("$buildDir/coverage")
+}
+
+jacocoTestReport {
+    reports {
+        xml.enabled false
+        csv.enabled false
+        html.destination file("${buildDir}/jacocoHtml")
+    }
+}
+
+application {
+    // Define the main class for the application.
+    mainClassName = 'CurrencyConverter.App'
+}

@@ -1,0 +1,38 @@
+CurrencyConverter/Model/ExchangeRecordPair.java
+ CurrencyConverter.Model.ExchangeRecordPair
+CurrencyConverter/Model/ExchangeRecord.java
+ CurrencyConverter.Model.ExchangeRecord
+CurrencyConverter/User/User.java
+ CurrencyConverter.User.User
+CurrencyConverter/WindowController/AdminWindowController.java
+ CurrencyConverter.WindowController.AdminWindowController
+CurrencyConverter/User/NormalUserImpl.java
+ CurrencyConverter.User.NormalUserImpl
+CurrencyConverter/WindowController/MainWindowController.java
+ CurrencyConverter.WindowController.MainWindowController
+CurrencyConverter/Processor.java
+ CurrencyConverter.Processor
+CurrencyConverter/User/AdminUserImpl.java
+ CurrencyConverter.User.AdminUserImpl
+CurrencyConverter/WindowController/PopularTableEntry.java
+ CurrencyConverter.WindowController.PopularTableEntry
+CurrencyConverter/WindowController/AddRateWindowController.java
+ CurrencyConverter.WindowController.AddRateWindowController
+CurrencyConverter/Model/Currency.java
+ CurrencyConverter.Model.Currency
+CurrencyConverter/WindowController/HistoryTableEntry.java
+ CurrencyConverter.WindowController.HistoryTableEntry
+CurrencyConverter/WindowController/HistoryWindowController.java
+ CurrencyConverter.WindowController.HistoryWindowController
+CurrencyConverter/WindowController/ConvertWindowController.java
+ CurrencyConverter.WindowController.ConvertWindowController
+CurrencyConverter/FileHandler.java
+ CurrencyConverter.FileHandler
+ CurrencyConverter.FileHandler$1
+ CurrencyConverter.FileHandler$2
+CurrencyConverter/WindowController/AddCurrencyWindowController.java
+ CurrencyConverter.WindowController.AddCurrencyWindowController
+CurrencyConverter/WindowController/ChangePopCurWindowController.java
+ CurrencyConverter.WindowController.ChangePopCurWindowController
+CurrencyConverter/App.java
+ CurrencyConverter.App
